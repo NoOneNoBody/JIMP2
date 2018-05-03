@@ -6,8 +6,8 @@
 class Exceptions
 {
     public:
-        Exceptions();
-        virtual ~Exceptions();
+        Exceptions(){}
+        virtual ~Exceptions(){}
         virtual void printException()=0;
     protected:
 
