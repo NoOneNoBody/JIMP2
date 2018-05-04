@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
         e.printException();
         return 1;
     }
-    OrthogonalProjection(bmp,obj,400,300,100); //Funkcja do rysowania rzutu prostok¹tnego, znajduje siê w pliku obj.cpp od lini 128
+    OrthogonalProjection(bmp,obj,400,300,100); //Funkcja do rysowania rzutu prostokÂ¹tnego, znajduje siÃª w pliku obj.cpp od lini 154
     std::ofstream outfile("out.bmp", std::ofstream::binary);
     outfile << bmp;
 	return 0;
